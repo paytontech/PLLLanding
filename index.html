@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlistlist</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./design.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <script src="./main.js"></script>
+</head>
+<body class="px-6 py-6 md:px-2 md:py-2">
+    <div id="header" class="md:flex md:justify-between">
+        <!-- "appinfo" div -->
+        <div id="appinfo" class="flex flex-row items-center md:w-1/2">
+            <img id="appicon" src="./imgs/pll.png">
+            <div class="pl-8 align-middle">
+                <h1 id="appname" class="font-semibold text-5xl md:text-6xl">Playlistlist</h1>
+                <h2 class="text-xl py-3">Effortlessly keep track of your playlists.</h2>
+            </div>
+        </div>
+
+        <!-- "linksandinfocont" div -->
+        <div id="linksandinfocont" class="md:w-1/2 md:pl-4 md:pr-0">
+            <div id="linksandinfo" class="bg-slate-200">
+                <div class="px-6 py-6">
+                    <h1 class="font-semibold text-lg">Links & Info</h1>
+
+                    <!-- Link buttons -->
+                    <div class="linkbuttoncontainer">
+                        <a class="" href="https://apps.apple.com/us/app/playlistlist/id6468538844">
+                            <button class="rounded-full linkbutton">
+                                <div class="flex flex-row">
+                                    <p>Get it now (FREE!)</p>
+                                    <span class="material-symbols-rounded">arrow_right_alt</span>
+                                </div>
+                            </button>
+                        </a>
+                    </div>
+
+                    <div class="linkbuttoncontainer">
+                        <a class="" href="mailto:paytondeveloper@gmail.com">
+                            <button class="rounded-full linkbutton">
+                                <div class="flex flex-row">
+                                    <p>Need help?</p>
+                                    <span class="material-symbols-rounded">arrow_right_alt</span>
+                                </div>
+                            </button>
+                        </a>
+                    </div>
+
+                    <div class="linkbuttoncontainer">
+                        <a class="" href="https://forms.gle/MgEao4ZCv7kWS54Q6">
+                            <button class="rounded-full linkbutton">
+                                <div class="flex flex-row">
+                                    <p>Suggest music provider</p>
+                                    <span class="material-symbols-rounded">arrow_right_alt</span>
+                                </div>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="bodycontent" class="md:flex md:flex-row">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 py-3">
+            <div class="sellingpoint">
+                <h1 class="font-semibold text-3xl">How does it work?</h1>
+                <p>About every hour, in the background, Playlistlist looks through your playlists and quietly logs any changes. Once you open the app, Playlistlist shows you these changes in a customizable, snappy interface. Playlistlist also features some analytics tools, like Charts, which plots your data in an easy-to-understand chart.</p>
+            </div>
+            <div class="sellingpoint" >
+                <h1 class="font-semibold text-3xl">What else can it do?</h1>
+                <p>Playlistlist has several other features. Playlistlist Social lets you share your playlist changes with friends, and lets friends see your playlist changes. Playlistlist also has a home screen widget for quickly glancing at your most recent changes throughout the day. Optionally, Playlistlist offers iCloud Backup so that you can sync changes between devices and recover any lost data. </p>
+            </div>
+            <div class="sellingpoint">
+                <h1 class="font-semibold text-3xl">Does it work with [platform]?</h1>
+                <p>As of right now, Playlistlist is compatible with Apple Music and Spotify. Unfortunately, due to Spotify’s long review process, Spotify support is currently unavailable. Spotify support is implemented and functional, and once Spotify approves it, it’ll be available without an app update required. If you want to suggest a music provider, you can do so here.</p>
+            </div>
+            <div class="sellingpoint">
+                <h1 class="font-semibold text-3xl">Playlistlist Max</h1>
+                <p>Playlistlist Max is the subscription service associated with Playlistlist. For just $4.99/month or $39.99/year, you unlock these exclusive features for Playlistlist:</p>
+                    <ul>
+                        <li>Background Refresh (without this, you need to open Playlistlist every time you make a change for it to sync)</li>
+                        <li>Unlimited Playlists</li>
+                        <li>No ads</li>
+                        <li>Custom Colors</li>
+                        <li>More charts (Bar graph, pie chart)</li>
+                    </ul>
+            </div>
+        </div>
+        <img id="marketingimg" src="./imgs/marketingimg.png"/>
+    </div>
+</body>
+</html>
