@@ -205,7 +205,7 @@
                 </a>
             </div>
         </div>
-        <div class="px-2 pllios-container">
+        <div class="p-2 pllios-container">
             <div
                 class="border-solid border-2 border-slate-100 p-8 rounded-xl dlcontainer"
             >
