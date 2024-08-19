@@ -152,22 +152,10 @@
             </p>
         </div>
         <div class="sellingpoint">
-            <h1 class="font-semibold text-3xl">Playlistlist Max</h1>
+            <h1 class="font-semibold text-3xl">Playlistlist is Free</h1>
             <p>
-                Playlistlist Max is the subscription service associated with
-                Playlistlist. For just $4.99/month or $39.99/year, you unlock
-                these exclusive features for Playlistlist:
+                With Playlistlist 1.4 (available now), Playlistlist is 100% free. No subscriptions or purchases at all. Free users get all features.
             </p>
-            <ul>
-                <li>
-                    Background Refresh (without this, you need to open
-                    Playlistlist every time you make a change for it to sync)
-                </li>
-                <li>Unlimited Playlists</li>
-                <li>No ads</li>
-                <li>Custom Colors</li>
-                <li>More charts (Bar graph, pie chart)</li>
-            </ul>
         </div>
     </div>
 </div>
@@ -295,6 +283,7 @@
     }
     #bodycontent {
         padding: 12px;
+        padding-left: 5%;
     }
     @media (max-width: 767px) {
         .downloadmodal {
